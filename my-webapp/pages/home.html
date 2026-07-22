@@ -6,20 +6,25 @@
   <title>Marrymap — Wedding planning checklist</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="logo">
-        <span class="logo-mark">♥</span>
-        Marrymap
-      </a>
+    <div class="header-inner header-inner--wedding">
       <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-      <nav class="site-nav">
+      <nav class="site-nav site-nav--wedding">
+        <a href="/">Home</a>
         <a href="/checklist">Checklist</a>
         <a href="/setup">Setup</a>
+        <a href="/" class="logo-crest" aria-label="Marrymap home">
+          <svg class="crest-svg" viewBox="0 0 80 80" aria-hidden="true">
+            <ellipse cx="40" cy="40" rx="34" ry="36" fill="none" stroke="currentColor" stroke-width="0.7"/>
+            <path d="M40 8 C52 18, 58 28, 58 40 C58 52, 52 62, 40 72 C28 62, 22 52, 22 40 C22 28, 28 18, 40 8Z" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+            <text x="26" y="46" font-family="Great Vibes, cursive" font-size="20" fill="currentColor">E</text>
+            <text x="46" y="46" font-family="Great Vibes, cursive" font-size="20" fill="currentColor">A</text>
+          </svg>
+        </a>
         <a href="/pricing">Pricing</a>
         <a href="/about">About</a>
         <a href="/checklist" class="nav-cta">Try demo</a>
@@ -28,51 +33,73 @@
   </header>
 
   <main>
-    <section class="hero hero-compact">
-      <div class="container">
-        <span class="hero-badge">156 tasks · 26 weeks · yours to approve</span>
-        <h1>Your wedding checklist, <em>week by week</em></h1>
-        <p class="hero-sub">Skipping the planner saves $5,000 — but leaves ~200 decisions on your plate. Marrymap turns your wedding date into a full timeline: what to do this week, what's overdue, and which items need a real judgment call.</p>
-        <div class="hero-actions">
-          <a href="/checklist" class="btn btn-primary">Try the demo</a>
-          <a href="/setup" class="btn btn-secondary">Use your wedding date</a>
-        </div>
-        <p class="hero-note">No signup required — jump straight into the checklist.</p>
+    <section class="hero hero-wedding">
+      <div class="hero-wedding__bg" aria-hidden="true"></div>
+      <div class="hero-wedding__content">
+        <p class="hero-wedding__eyebrow caps">The wedding of</p>
+        <h1 class="hero-wedding__names">Emma &amp; Adrien</h1>
+        <p class="hero-wedding__meta caps">
+          August 15, 2026
+          <span>Napa Valley, California</span>
+        </p>
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-forever">
       <div class="container">
-        <h2 class="section-title">How the checklist works</h2>
-        <div class="steps steps-compact">
-          <div class="step">
-            <div class="step-num">1</div>
-            <h3>Enter your date</h3>
-            <p>Marrymap counts back 26 weeks and assigns every task to a specific week on your calendar.</p>
-          </div>
-          <div class="step">
-            <div class="step-num">2</div>
-            <h3>Work week by week</h3>
-            <p>Each week opens to 6 focused tasks — book the venue in week 24, send photographer inquiries in week 23.</p>
-          </div>
-          <div class="step">
-            <div class="step-num">3</div>
-            <h3>Flag what matters</h3>
-            <p>Decision and budget tasks are tagged. Overdue items surface automatically so nothing slips.</p>
-          </div>
-          <div class="step">
-            <div class="step-num">4</div>
-            <h3>Track progress</h3>
-            <p>Check tasks off, add notes on quotes and vendors, filter by open decisions or overdue work.</p>
-          </div>
+        <h2 class="section-title">Our Forever <span class="script">Begins</span></h2>
+        <p>Every love story deserves a beautiful beginning — and a plan that keeps the joy in focus. Marrymap turns your wedding date into a week-by-week checklist so you can savor the romance, not the spreadsheets.</p>
+        <p>From budget conversations to final vendor confirmations, each task lands exactly when you need it. No missed deadlines, no last-minute panic — just two people, one timeline, and a celebration worth waiting for.</p>
+        <p class="signature">With love, Emma and Adrien</p>
+      </div>
+    </section>
+
+    <section class="section section-story">
+      <div class="container">
+        <h2 class="section-title text-center">Our Story</h2>
+        <div class="story-layout">
+          <p class="story-side-left">Rooted in<br>friendship</p>
+          <figure class="story-portrait">
+            <div class="story-portrait__frame">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=500&q=80" alt="Emma and Adrien">
+            </div>
+          </figure>
+          <p class="story-side-right">Blossoming<br>into forever</p>
+        </div>
+        <div class="story-body">
+          <p>We met on a rainy afternoon in a bookstore café — two strangers reaching for the same worn copy of a travel guide. What began as shared laughter over coffee became years of adventures, quiet mornings, and the certainty that we had found home in each other.</p>
+          <p>Planning our wedding felt overwhelming until we discovered Marrymap. It gave us structure without stealing the magic — 156 tasks across 26 weeks, each one timed perfectly. We checked off venue visits, photographer calls, and flower tastings knowing exactly what came next.</p>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section section-details">
+      <div class="container text-center">
+        <div class="lace-title">
+          <h2>Wedding Details</h2>
+        </div>
+        <div class="details-grid">
+          <div class="detail-item">
+            <h3>Ceremony</h3>
+            <p>Saturday, August 15<br>4:00 PM</p>
+          </div>
+          <div class="detail-item">
+            <h3>Reception</h3>
+            <p>Following ceremony<br>Outdoor terrace</p>
+          </div>
+          <div class="detail-item">
+            <h3>Location</h3>
+            <p>St. Helena Estate<br>Napa Valley, CA</p>
+          </div>
+        </div>
+        <a href="/setup" class="btn btn-secondary">Plan your own wedding</a>
+      </div>
+    </section>
+
+    <section class="section section-checklist-preview">
       <div class="container">
-        <h2 class="section-title">Sample: weeks 26–24</h2>
-        <p class="section-lead">The first three weeks set the foundation — budget, venue search, and booking.</p>
+        <h2 class="section-title text-center">Your Checklist, <span class="script">Week by Week</span></h2>
+        <p class="section-lead text-center">156 tasks across 26 weeks — timed to your wedding date so nothing slips through.</p>
         <div class="week-list week-list-static">
           <article class="week-card open current">
             <div class="week-card-header-static">
@@ -96,16 +123,26 @@
             </div>
           </article>
         </div>
-        <p class="text-center" style="margin-top: 1.5rem; color: var(--text-muted);">
-          <a href="/checklist" class="btn btn-primary">Open full 26-week demo →</a>
+        <p class="text-center" style="margin-top: 2rem;">
+          <a href="/checklist" class="btn btn-primary">Open full 26-week demo</a>
         </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Begin Your <span class="script">Forever</span></h2>
+          <p>Enter your wedding date and let Marrymap build your personalized timeline — no signup required.</p>
+          <a href="/checklist" class="btn btn-primary">Try the demo</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer site-footer-minimal">
     <div class="footer-bottom">
-      &copy; 2026 Marrymap. Plan smarter, stress less.
+      &copy; 2026 Marrymap
     </div>
   </footer>
 
@@ -114,8 +151,11 @@
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       if (MarrymapStorage.getPlan()) {
-        const open = document.querySelector('a[href="/checklist"]');
-        if (open) open.textContent = "My checklist";
+        document.querySelectorAll('a[href="/checklist"]').forEach((link) => {
+          if (link.classList.contains("nav-cta") || link.classList.contains("btn")) {
+            link.textContent = link.classList.contains("nav-cta") ? "My checklist" : "Open my checklist";
+          }
+        });
       }
     });
   </script>

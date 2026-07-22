@@ -6,22 +6,28 @@
   <title>Marrymap — Your checklist</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="logo">
-        <span class="logo-mark">♥</span>
-        Marrymap
-      </a>
+    <div class="header-inner header-inner--wedding">
       <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-      <nav class="site-nav">
+      <nav class="site-nav site-nav--wedding">
+        <a href="/">Home</a>
         <a href="/checklist">Checklist</a>
         <a href="/setup">Setup</a>
+        <a href="/" class="logo-crest" aria-label="Marrymap home">
+          <svg class="crest-svg" viewBox="0 0 80 80" aria-hidden="true">
+            <ellipse cx="40" cy="40" rx="34" ry="36" fill="none" stroke="currentColor" stroke-width="0.7"/>
+            <path d="M40 8 C52 18, 58 28, 58 40 C58 52, 52 62, 40 72 C28 62, 22 52, 22 40 C22 28, 28 18, 40 8Z" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+            <text x="26" y="46" font-family="Great Vibes, cursive" font-size="20" fill="currentColor">E</text>
+            <text x="46" y="46" font-family="Great Vibes, cursive" font-size="20" fill="currentColor">A</text>
+          </svg>
+        </a>
         <a href="/pricing">Pricing</a>
         <a href="/about">About</a>
+        <a href="/checklist" class="nav-cta">Try demo</a>
       </nav>
     </div>
   </header>
